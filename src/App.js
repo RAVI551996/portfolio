@@ -1,12 +1,21 @@
+import React from "react";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
+import Project from "./routes/Project";
+import { Routes,Route } from "react-router-dom";
 
-
-import './App.css';
-import Home from './portfolioContainer/home/Home';
 function App() {
   return (
-    <div className="App">
-     <Home />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={ <About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Project />} />
+      </Routes>
+     
+    </>
   );
 }
 
