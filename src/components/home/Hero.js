@@ -1,7 +1,9 @@
 import "./Hero.css";
 import React from "react";
-import IntroImg from "../assets/intro-bg.jpg";
+import IntroImg from "../../assets/intro-bg.jpg";
 import { Link } from "react-router-dom";
+import ramResumePDF from '../../assets/ramResume.pdf';
+
 const Hero = () => {
   return (
     <div className="hero">
@@ -9,12 +11,12 @@ const Hero = () => {
         <img className="into-img" src={IntroImg} alt="IntroImg" />
       </div>
       <div className="content">
-        <p>HI, I'M A FREELENCER</p>
-        <h1>Node.js Developer</h1>
+        <p>HI, I'M A </p>
+        <h1>Mern Stack Developer</h1>
         <div>
-          <Link to="/project" className="btn">
-            Project
-          </Link>
+        <a href={ramResumePDF} className="btn">
+            Resume
+          </a>
           <Link to="/contact" className="btn btn-light ">
             Contact
           </Link>
