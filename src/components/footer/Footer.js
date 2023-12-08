@@ -20,6 +20,9 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
+            </div>
+            <div>
+              {" "}
               <p>Arti Bhawan,T.V Center</p>
               <p>Katihar,Bihar,854105</p>
               <p>India</p>
@@ -35,6 +38,7 @@ const Footer = () => {
               +91 8051719168
             </h4>
           </div>{" "}
+          <br />
           <div className="email">
             <h4>
               <FaMailBulk
@@ -51,23 +55,22 @@ const Footer = () => {
             Hi, I am Ravi Shankar Mehta,I Enjoy discussing new project and
             design challenges.
           </p>
-          <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rwm" }}
-            />
-          </div>{" "}
-          <div className="gitHub">
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rwm" }}
-            />
-          </div>
-          <div className="linkedIn">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rwm" }}
-            />
+          <div>
+            {" "}
+            <div className="social">
+              <FaFacebook
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </div>
           </div>
         </div>
       </div>

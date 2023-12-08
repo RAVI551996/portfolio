@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./FirstPage.css";
 import React from "react";
 import IntroImg from "../../assets/intro-bg.jpg";
 import { Link } from "react-router-dom";
