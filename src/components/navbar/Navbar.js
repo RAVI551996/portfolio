@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <div className={color?"header header-bg":"header"}>
       <Link to={"/"}>
-        <h1>RSM</h1>
+        <h1>Ravi Shankar Mehta</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
